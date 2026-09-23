@@ -280,8 +280,12 @@ is what you normally want to cite:
 
 > **10.5281/zenodo.22922625**
 
-To cite the exact version you used instead, take the version DOI from the Zenodo record
-for that release (v1.0.0 is `10.5281/zenodo.22922626`).
+If you need the exact bits you worked with, cite the **version DOI** instead. For the
+current release, `v1.0.0`, that is **10.5281/zenodo.22922626**. Use this one when
+reproducing published numbers, since the concept DOI will move to later versions.
+
+The Zenodo record is typed as a **Dataset** and carries the same CC BY-SA 4.0 licence as
+this repository.
 
 ```bibtex
 @dataset{paim2026pampa,
