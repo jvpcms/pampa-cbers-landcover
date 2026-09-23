@@ -1,0 +1,9 @@
+# label:color_rgb:parts:actions
+Agriculture:255,255,0::
+Barren:255,255,255::
+Forest:0,255,0::
+Rangeland:255,0,255::
+Unknown:0,0,0::
+Urban:0,255,255::
+Water:0,0,255::
+background:0,0,0::

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Pampa CBERS-4A Land Cover"
+message: "If you use this dataset, please cite it."
+type: dataset
+authors:
+  - family-names: "Paim de Cerqueira Melo de Souza"
+    given-names: "João Victor"
+    affiliation: "Instituto Militar de Engenharia"
+abstract: >-
+  Pixel-level land cover annotations for 100 CBERS-4A WPM tiles over the Pampa
+  biome in Rio Grande do Sul, Brazil, at 2 m/px, in the 7-class DeepGlobe
+  taxonomy. Tiles are 1024 x 1024 px and come from 34 scenes acquired between
+  2020 and 2026, selected by a reproducible stratified sampling procedure with a
+  spatial exclusion buffer between the train and test partitions. Released with
+  the 4-band Int16 GeoTIFFs the annotations were made over, and with the full
+  rendering parameters needed to reproduce the 8-bit composites.
+keywords:
+  - land cover
+  - semantic segmentation
+  - remote sensing
+  - CBERS-4A
+  - Pampa
+  - Brazil
+  - DeepGlobe
+repository-code: "https://github.com/jvpcms/pampa-cbers-landcover"
