@@ -1,5 +1,8 @@
 # Pampa CBERS-4A Land Cover
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22922625.svg)](https://doi.org/10.5281/zenodo.22922625)
+[![Licence: CC BY-SA 4.0](https://img.shields.io/badge/Licence-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
+
 Pixel-level land cover annotations for **100 CBERS-4A WPM tiles** over the Pampa biome in
 Rio Grande do Sul, Brazil, at **2 m/px**, in the **7-class DeepGlobe taxonomy**.
 
@@ -272,8 +275,27 @@ is visible in that acquisition rather than what is known about the place.
 
 ## Citation
 
-A DOI will be minted on the first tagged release. Until then, cite this repository by its
-URL and commit.
+Archived on Zenodo. The **concept DOI** below always resolves to the latest version, which
+is what you normally want to cite:
+
+> **10.5281/zenodo.22922625**
+
+To cite the exact version you used instead, take the version DOI from the Zenodo record
+for that release (v1.0.0 is `10.5281/zenodo.22922626`).
+
+```bibtex
+@dataset{paim2026pampa,
+  author    = {Paim de Cerqueira Melo de Souza, Jo\~{a}o Victor},
+  title     = {Pampa {CBERS}-4A Land Cover},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22922625},
+  url       = {https://doi.org/10.5281/zenodo.22922625}
+}
+```
+
+`CITATION.cff` carries the same metadata, so GitHub's "Cite this repository" button works
+as well.
 
 Underlying imagery is CBERS-4A WPM, acquired and distributed by INPE (Instituto Nacional
 de Pesquisas Espaciais) and CAST. Cite INPE as the imagery source independently of this

@@ -24,5 +24,6 @@ keywords:
   - DeepGlobe
 repository-code: "https://github.com/jvpcms/pampa-cbers-landcover"
 license: CC-BY-SA-4.0
+doi: "10.5281/zenodo.22922625"
 version: "1.0.0"
 date-released: "2026-09-23"
