@@ -6,7 +6,9 @@
 Pixel-level land cover annotations for **100 CBERS-4A WPM tiles** over the Pampa biome in
 Rio Grande do Sul, Brazil, at **2 m/px**, in the **7-class DeepGlobe taxonomy**.
 
-Built to fine-tune a DeepGlobe-pretrained segmentation model onto Brazilian imagery. There
+Built to fine-tune a DeepGlobe-pretrained segmentation model onto Brazilian imagery. The
+model, the training code and the evaluation protocol that consume this dataset are published
+separately at [jvpcms/pitcic-segmentation](https://github.com/jvpcms/pitcic-segmentation). There
 is no freely licensed pixel-level land cover annotation for Brazil at metric resolution:
 the national mapping (MapBiomas) is produced at 30 m, and the free metric-resolution
 orbital imagery (CBERS-4A) ships without labels. This dataset fills that gap for one
@@ -323,6 +325,14 @@ a compatible licence.
 
 Attribution must name **both** this dataset and INPE as the imagery source. See
 [Citation](#citation) and [Acknowledgements](#acknowledgements).
+
+## Related work
+
+[jvpcms/pitcic-segmentation](https://github.com/jvpcms/pitcic-segmentation) is the
+reproduction code for the model this dataset was built for: a U-Net trained on DeepGlobe at
+2 m/px and adapted here, reaching 82,0% mIoU on the test split against 23,7% before
+adaptation. It fetches this dataset by its version DOI and carries the single implementation
+of the evaluation protocol those numbers are measured under.
 
 ## Acknowledgements
 
