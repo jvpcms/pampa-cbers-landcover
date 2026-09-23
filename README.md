@@ -281,10 +281,22 @@ dataset.
 
 ## Licence
 
-**Not yet fixed.** The annotations are original work, but the imagery they derive from is
-INPE-distributed CBERS-4A data and its distribution terms constrain what this release can
-be licensed as. This will be settled before the first tagged release; do not assume a
-licence until a `LICENSE` file exists here.
+**CC BY-SA 4.0** (Creative Commons Attribution-ShareAlike 4.0 International). Full text in
+[`LICENSE`](LICENSE).
+
+The choice is constrained, not preferential. The annotations are original work and could
+have carried a more permissive licence on their own, but they are released alongside the
+GeoTIFF crops and the 8-bit composites, which are derivative works of CBERS-4A imagery
+distributed by INPE under CC BY-SA 3.0. ShareAlike propagates to those derivatives.
+CC BY-SA 3.0 permits licensing adaptations under a later version of the same licence,
+which is what makes 4.0 available here.
+
+Practically, this means you may copy, redistribute and adapt the dataset, including
+commercially, provided you attribute it and license your adaptations under CC BY-SA 4.0 or
+a compatible licence.
+
+Attribution must name **both** this dataset and INPE as the imagery source. See
+[Citation](#citation) and [Acknowledgements](#acknowledgements).
 
 ## Acknowledgements
 
