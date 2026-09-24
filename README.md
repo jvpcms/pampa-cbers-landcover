@@ -8,7 +8,7 @@ Rio Grande do Sul, Brazil, at **2 m/px**, in the **7-class DeepGlobe taxonomy**.
 
 Built to fine-tune a DeepGlobe-pretrained segmentation model onto Brazilian imagery. The
 model, the training code and the evaluation protocol that consume this dataset are published
-separately at [jvpcms/pitcic-segmentation](https://github.com/jvpcms/pitcic-segmentation). There
+separately at [jvpcms/satellite-landcover-segmentation](https://github.com/jvpcms/satellite-landcover-segmentation). There
 is no freely licensed pixel-level land cover annotation for Brazil at metric resolution:
 the national mapping (MapBiomas) is produced at 30 m, and the free metric-resolution
 orbital imagery (CBERS-4A) ships without labels. This dataset fills that gap for one
@@ -328,7 +328,7 @@ Attribution must name **both** this dataset and INPE as the imagery source. See
 
 ## Related work
 
-[jvpcms/pitcic-segmentation](https://github.com/jvpcms/pitcic-segmentation) is the
+[jvpcms/satellite-landcover-segmentation](https://github.com/jvpcms/satellite-landcover-segmentation) is the
 reproduction code for the model this dataset was built for: a U-Net trained on DeepGlobe at
 2 m/px and adapted here, reaching 82,0% mIoU on the test split against 23,7% before
 adaptation. It fetches this dataset by its version DOI and carries the single implementation
